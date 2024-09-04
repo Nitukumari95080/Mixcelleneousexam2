@@ -1,0 +1,43 @@
+/* src/App.css */
+
+.App {
+  text-align: center;
+  margin: 20px;
+}
+
+input {
+  padding: 10px;
+  margin-right: 10px;
+}
+
+button {
+  padding: 10px 20px;
+  margin-left: 10px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.todo-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f9f9f9;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 5px;
+}
+
+.todo-item.pending {
+  background-color: #ffe6e6;
+}
+
+.todo-item.completed {
+  background-color: #e6ffe6;
+}
+
+.todo-actions button {
+  margin-left: 10px;
+}

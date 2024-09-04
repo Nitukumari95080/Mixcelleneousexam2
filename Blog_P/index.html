@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PWSkills Blog</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header>
+        <h1>PWSkills Blog</h1>
+        <button id="addBlogBtn">+</button>
+    </header>
+
+    <div id="blogsContainer"></div>
+
+    <!-- Add Blog Modal -->
+    <!-- Add Blog Modal -->
+<div id="modal" class="modal">
+    <div class="modal-content">
+        <span id="closeModal">&times;</span>
+        <h2>Add New Blog</h2>
+        <form id="blogForm">
+            <input type="file" id="image" accept="image/*" required>
+           
+            <input type="text" id="title" placeholder="Blog Title" required>
+            <input type="text" id="poster" placeholder="Poster" required>
+            <input type="text" id="description" placeholder="Description" required></input>
+            <textarea id="content" placeholder="Blog Content" required cols="10" rows="4"></textarea>
+            <button type="submit" id="btn">Add Blog</button>
+        </form>
+    </div>
+</div>
+
+
+    <script src="./script.js"></script>
+</body>
+</html>
